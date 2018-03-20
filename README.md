@@ -1,25 +1,16 @@
-# ReduxSimpleStarter
+# REACT-YT-CLONE
+A youtube alike application that uses ReactJS to make calls to free youtube api from npm module. This project uses ReactJS & ES6 with webpack for building them. It also uses ExpressJS middleware to run built code on NodeJS server. 
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This project is configured in such a way that it can be deployed to Heroku directly w/o making any changes to the code. Also, it contains Dockerfile to use run its container on docker. You can find its docker image here -- https://hub.docker.com/r/rutul/react-yt-clone/
 
-### Getting Started
+# Live URL
+https://youtube-clone-app.herokuapp.com/
 
-There are two methods for getting started with this repo.
+## Technologies used
+- NodeJS
+- ExpressJS
+- HTML, CSS, JS, ES16
+- ReactJS
+- Webpack
+- Docker
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
